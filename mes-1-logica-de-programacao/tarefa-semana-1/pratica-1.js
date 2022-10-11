@@ -10,8 +10,14 @@ profissao="engenheiro"
 idade=27
 lugar="Dubai"
 
-console.log(nome)
-console.log(email)
-console.log(profissao)
-console.log(idade)
-console.log(lugar)
+tipodonome=typeof(nome)
+tipodoemail=typeof(email)
+tipodaprofissao=typeof(profissao)
+tipodeidade=typeof(idade)
+tipodelugar=typeof(lugar)
+
+console.log(tipodonome)
+console.log(tipodoemail)
+console.log(tipodaprofissao)
+console.log(tipodeidade)
+console.log(tipodelugar)
